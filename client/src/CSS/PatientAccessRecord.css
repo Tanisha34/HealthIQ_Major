@@ -1,0 +1,153 @@
+.first-ctr
+{
+background-color: rgb(116, 205, 163);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+.second-ctr
+{
+    background-color: #d7fae4;
+    display: flex;
+    justify-content: space-evenly;
+    padding:2% 0 2% 0 ;
+}
+.labdiv{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sppd{
+    font-size: 20px;
+    font-weight:lighter;
+}
+.Recordcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 2% 0 2%;
+}
+.showRecords {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.leftdetails {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(109, 90, 159); */
+}
+
+.rightdetails {
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+
+.hllabel {
+    display: inline-block;
+    width: 220px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.hrlabel {
+    display: inline-block;
+    width: 130px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.clabel {
+    font-size: 20px;
+}
+
+.healthpara {
+    padding-left: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.hyplink {
+    color: black;
+    text-decoration: underline;
+}
+
+.bottomdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottomRecord {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.blabel {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+.bspan1 {
+    display: inline-block;
+    width: 525px;
+    padding-left: 10px;
+    height: max-content;
+}
+
+.bspan2 {
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.separator-col {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.separator-col-pres {
+    padding-left: 60px;
+}
+
+.infodiv {
+    height: 3rem;
+}
+
+.next-prevctr {
+    display: flex;
+    flex-direction: row;
+    flex: space-around;
+    justify-content: space-around;
+    padding: 1% 40% 1% 40%;
+}
+
+.npbtntext {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.npbtntext {
+    padding: 5px 25px;
+}
+
+.sequence {
+    display: flex;
+    justify-content: center;
+}
+
+.sequence-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-inactive {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
